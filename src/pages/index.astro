@@ -1,0 +1,40 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "@/styles/globals.css";
+---
+
+<Layout title="Frontend Mentor | Product preview card component">
+  <main class="my-7 lg:mx-[26.25rem] mx-4 justify-center items-center lg:my-[10.94rem]">
+    <section class="rounded-[0.625rem] bg-[#fff] w-[21.4375rem] h-[38.1875rem] lg:w-[37.5rem] lg:h-[28.125rem] flex flex-col lg:flex-row">
+      <picture>
+        <source media="(min-width:768px )" srcset="/images/image-product-desktop.jpg">
+        <img src="/images/image-product-mobile.jpg" alt="" class="rounded-t-[0.625rem] lg:rounded-l-[0.625rem] lg:h-[28.12rem] bg-contain ">
+      </picture>
+      <div class="">
+        <div class="m-6 flex flex-col gap-4 lg:m-8 lg:gap-6">
+          <h1 class="text-[#6C7289] text-xs font-Montserrat font-medium leading-normal tracking-[0.3125rem]">PERFUME</h1>
+          <p class="text-[#1C232B] text-[2rem] font-bold leading-8 font-Fraunces lg:w-[14.75rem]">Gabrielle Essence Eau De Parfum</p>
+          <p class="lg:w-[14.8125rem] font-Montserrat font-medium text-sm leading-[1.4375rem] text-[#6C7289] ">
+            A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+        </div>
+        <div class="ml-[1.53rem] mb-6 flex gap-[1.19rem] items-center lg:ml-8  lg:mb-[1.88rem]">
+          <h2 class="text-[2rem] font-bold font-Fraunces leading-8 text-[#3D8168]">$149.99</h2>
+          <h3 class="text-sm font-Montserrat font-medium leading-[1.4375rem] line-through text-[#6C7289]">$169.99</h3>
+        </div>
+        <div class="ml-[1.56rem] mr-[1.44rem] mb-6 lg:mx-8 lg:mb-8 w-[18.4375rem] h-12 bg-[#3D8168] rounded-lg lg:w-[14.75rem] text-[#fff] text-sm font-Montserrat font-bold leading-normal flex items-center justify-center text-center gap-[0.73rem] hover:bg-[#1A4032] transition-colors duration-700 ease-in-out cursor-pointer">
+          <img src="/images/icon-cart.svg" alt="" class="">
+          <button type="button" class="">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  body {
+    background-color: #F2EAE2;
+  }
+</style>

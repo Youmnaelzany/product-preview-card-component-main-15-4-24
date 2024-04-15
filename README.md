@@ -9,6 +9,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Built with](#built-with)
 - [Author](#author)
 
+*
+
 ### Screenshot
 
 ![](./public/images/Screenshot%202024-04-15%20at%2022-42-49%20Frontend%20Mentor%20Product%20preview%20card%20component.png)
